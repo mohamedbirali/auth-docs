@@ -78,7 +78,32 @@
                             <li>
                                     <span class="modifier">Private</span>
                                     <span class="modifier">Readonly</span>
+                                <a href="#accessTokenExpirationTime" >accessTokenExpirationTime</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                    <span class="modifier">Readonly</span>
+                                <a href="#accessTokenNotBeforeExpirationTime" >accessTokenNotBeforeExpirationTime</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                    <span class="modifier">Readonly</span>
                                 <a href="#passwordSaltLength" >passwordSaltLength</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                    <span class="modifier">Readonly</span>
+                                <a href="#refreshTokenExpirationTime" >refreshTokenExpirationTime</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                    <span class="modifier">Readonly</span>
+                                <a href="#refreshTokenExpirationTimeRememeberMe" >refreshTokenExpirationTimeRememeberMe</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                    <span class="modifier">Readonly</span>
+                                <a href="#refreshTokenNotBeforeExpirationTime" >refreshTokenNotBeforeExpirationTime</a>
                             </li>
                         </ul>
                     </td>
@@ -110,6 +135,26 @@
                             <li>
                                     <span class="modifier">Async</span>
                                 <a href="#encryptToken" >encryptToken</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#getAccessTokenExpirationTime" >getAccessTokenExpirationTime</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#getAccessTokenNotBeforeExpirationTime" >getAccessTokenNotBeforeExpirationTime</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#getRefreshTokenExpirationTime" >getRefreshTokenExpirationTime</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#getRefreshTokenExpirationTimeRememeberMe" >getRefreshTokenExpirationTimeRememeberMe</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Async</span>
+                                <a href="#getRefreshTokenNotBeforeExpirationTime" >getRefreshTokenNotBeforeExpirationTime</a>
                             </li>
                             <li>
                                     <span class="modifier">Async</span>
@@ -606,6 +651,171 @@
         <tbody>
             <tr>
                 <td class="col-md-4">
+                    <a name="getAccessTokenExpirationTime"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>getAccessTokenExpirationTime</b></span>
+                        <a href="#getAccessTokenExpirationTime"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getAccessTokenExpirationTime()</code>
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;number&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getAccessTokenNotBeforeExpirationTime"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>getAccessTokenNotBeforeExpirationTime</b></span>
+                        <a href="#getAccessTokenNotBeforeExpirationTime"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getAccessTokenNotBeforeExpirationTime()</code>
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;number&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getRefreshTokenExpirationTime"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>getRefreshTokenExpirationTime</b></span>
+                        <a href="#getRefreshTokenExpirationTime"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getRefreshTokenExpirationTime()</code>
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;number&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getRefreshTokenExpirationTimeRememeberMe"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>getRefreshTokenExpirationTimeRememeberMe</b></span>
+                        <a href="#getRefreshTokenExpirationTimeRememeberMe"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getRefreshTokenExpirationTimeRememeberMe()</code>
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;number&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getRefreshTokenNotBeforeExpirationTime"></a>
+                    <span class="name">
+                        <span class="modifier">Async</span>
+                        <span ><b>getRefreshTokenNotBeforeExpirationTime</b></span>
+                        <a href="#getRefreshTokenNotBeforeExpirationTime"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>getRefreshTokenNotBeforeExpirationTime()</code>
+                </td>
+            </tr>
+
+
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>    <code>Promise&lt;number&gt;</code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
                     <a name="signToken"></a>
                     <span class="name">
                         <span class="modifier">Async</span>
@@ -843,6 +1053,62 @@
         <tbody>
             <tr>
                 <td class="col-md-4">
+                    <a name="accessTokenExpirationTime"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                            <span class="modifier">Readonly</span>
+                        <span ><b>accessTokenExpirationTime</b></span>
+                        <a href="#accessTokenExpirationTime"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>this.configService.get&lt;number&gt;(&#x27;jwt.accessToken.expirationTime&#x27;)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="accessTokenNotBeforeExpirationTime"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                            <span class="modifier">Readonly</span>
+                        <span ><b>accessTokenNotBeforeExpirationTime</b></span>
+                        <a href="#accessTokenNotBeforeExpirationTime"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>this.configService.get&lt;number&gt;(&#x27;jwt.accessToken.notBeforeExpirationTime&#x27;)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
                     <a name="passwordSaltLength"></a>
                     <span class="name">
                             <span class="modifier">Private</span>
@@ -861,6 +1127,90 @@
                 <tr>
                     <td class="col-md-4">
                         <i>Default value : </i><code>this.configService.get&lt;number&gt;(&#x27;auth.password.salt&#x27;)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="refreshTokenExpirationTime"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                            <span class="modifier">Readonly</span>
+                        <span ><b>refreshTokenExpirationTime</b></span>
+                        <a href="#refreshTokenExpirationTime"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>this.configService.get&lt;number&gt;(&#x27;jwt.refreshToken.expirationTime&#x27;)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="refreshTokenExpirationTimeRememeberMe"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                            <span class="modifier">Readonly</span>
+                        <span ><b>refreshTokenExpirationTimeRememeberMe</b></span>
+                        <a href="#refreshTokenExpirationTimeRememeberMe"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>this.configService.get&lt;number&gt;(&#x27;jwt.refreshToken.expirationTimeRememeber&#x27;)</code>
+                    </td>
+                </tr>
+
+
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="refreshTokenNotBeforeExpirationTime"></a>
+                    <span class="name">
+                            <span class="modifier">Private</span>
+                            <span class="modifier">Readonly</span>
+                        <span ><b>refreshTokenNotBeforeExpirationTime</b></span>
+                        <a href="#refreshTokenNotBeforeExpirationTime"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/number" target="_blank" >number</a></code>
+
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <i>Default value : </i><code>this.configService.get&lt;number&gt;(&#x27;jwt.refreshToken.notBeforeExpirationTime&#x27;)</code>
                     </td>
                 </tr>
 

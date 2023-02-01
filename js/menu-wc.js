@@ -202,6 +202,18 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 </li>
                             </li>
                             <li class="link">
+                                <a href="modules/LoggerModule.html" data-type="entity-link" >LoggerModule</a>
+                            </li>
+                            <li class="link">
+                                <a href="modules/LoggerRepositoryModule.html" data-type="entity-link" >LoggerRepositoryModule</a>
+                            </li>
+                            <li class="link">
+                                <a href="modules/PermissionModule.html" data-type="entity-link" >PermissionModule</a>
+                            </li>
+                            <li class="link">
+                                <a href="modules/PermissionRepositoryModule.html" data-type="entity-link" >PermissionRepositoryModule</a>
+                            </li>
+                            <li class="link">
                                 <a href="modules/RequestModule.html" data-type="entity-link" >RequestModule</a>
                             </li>
                             <li class="link">
@@ -212,6 +224,9 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                             </li>
                             <li class="link">
                                 <a href="modules/RouterModule.html" data-type="entity-link" >RouterModule</a>
+                            </li>
+                            <li class="link">
+                                <a href="modules/RoutesAdminModule.html" data-type="entity-link" >RoutesAdminModule</a>
                             </li>
                             <li class="link">
                                 <a href="modules/RoutesModule.html" data-type="entity-link" >RoutesModule</a>
@@ -248,16 +263,36 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                     </li>
                             </li>
                             <li class="link">
-                                <a href="modules/UserModule.html" data-type="entity-link" >UserModule</a>
+                                <a href="modules/SettingModule.html" data-type="entity-link" >SettingModule</a>
                                 <li class="chapter inner">
                                     <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
-                                        'data-target="#injectables-links-module-UserModule-70144951ea75a29fb01508504f8f5a8c4db7489ef1f2268a8bf28364b15d35c3850fe8b2008b3c8e536690a72b3cf04d15dcf523ed18c9745cf5599c4b5daac5"' : 'data-target="#xs-injectables-links-module-UserModule-70144951ea75a29fb01508504f8f5a8c4db7489ef1f2268a8bf28364b15d35c3850fe8b2008b3c8e536690a72b3cf04d15dcf523ed18c9745cf5599c4b5daac5"' }>
+                                        'data-target="#injectables-links-module-SettingModule-40346dd248d767b2c0cc14dbdfdefb071afb9b09d7f5ce192cb2d99e569b2197387f7d0fe447b01ad837534d051a1cb4128b16f2d6699fdd463418de32cd02e7"' : 'data-target="#xs-injectables-links-module-SettingModule-40346dd248d767b2c0cc14dbdfdefb071afb9b09d7f5ce192cb2d99e569b2197387f7d0fe447b01ad837534d051a1cb4128b16f2d6699fdd463418de32cd02e7"' }>
                                         <span class="icon ion-md-arrow-round-down"></span>
                                         <span>Injectables</span>
                                         <span class="icon ion-ios-arrow-down"></span>
                                     </div>
-                                    <ul class="links collapse" ${ isNormalMode ? 'id="injectables-links-module-UserModule-70144951ea75a29fb01508504f8f5a8c4db7489ef1f2268a8bf28364b15d35c3850fe8b2008b3c8e536690a72b3cf04d15dcf523ed18c9745cf5599c4b5daac5"' :
-                                        'id="xs-injectables-links-module-UserModule-70144951ea75a29fb01508504f8f5a8c4db7489ef1f2268a8bf28364b15d35c3850fe8b2008b3c8e536690a72b3cf04d15dcf523ed18c9745cf5599c4b5daac5"' }>
+                                    <ul class="links collapse" ${ isNormalMode ? 'id="injectables-links-module-SettingModule-40346dd248d767b2c0cc14dbdfdefb071afb9b09d7f5ce192cb2d99e569b2197387f7d0fe447b01ad837534d051a1cb4128b16f2d6699fdd463418de32cd02e7"' :
+                                        'id="xs-injectables-links-module-SettingModule-40346dd248d767b2c0cc14dbdfdefb071afb9b09d7f5ce192cb2d99e569b2197387f7d0fe447b01ad837534d051a1cb4128b16f2d6699fdd463418de32cd02e7"' }>
+                                        <li class="link">
+                                            <a href="injectables/SettingService.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >SettingService</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </li>
+                            <li class="link">
+                                <a href="modules/SettingRepositoryModule.html" data-type="entity-link" >SettingRepositoryModule</a>
+                            </li>
+                            <li class="link">
+                                <a href="modules/UserModule.html" data-type="entity-link" >UserModule</a>
+                                <li class="chapter inner">
+                                    <div class="simple menu-toggler" data-toggle="collapse" ${ isNormalMode ?
+                                        'data-target="#injectables-links-module-UserModule-5761224684d5947025c80e46868496ee0ab17bc7c5c9701f7bae988b3a04c40750f12fa1f43175199a720eb49ba5cb73cce2a7fbf66c5517ad16a69405036ba5"' : 'data-target="#xs-injectables-links-module-UserModule-5761224684d5947025c80e46868496ee0ab17bc7c5c9701f7bae988b3a04c40750f12fa1f43175199a720eb49ba5cb73cce2a7fbf66c5517ad16a69405036ba5"' }>
+                                        <span class="icon ion-md-arrow-round-down"></span>
+                                        <span>Injectables</span>
+                                        <span class="icon ion-ios-arrow-down"></span>
+                                    </div>
+                                    <ul class="links collapse" ${ isNormalMode ? 'id="injectables-links-module-UserModule-5761224684d5947025c80e46868496ee0ab17bc7c5c9701f7bae988b3a04c40750f12fa1f43175199a720eb49ba5cb73cce2a7fbf66c5517ad16a69405036ba5"' :
+                                        'id="xs-injectables-links-module-UserModule-5761224684d5947025c80e46868496ee0ab17bc7c5c9701f7bae988b3a04c40750f12fa1f43175199a720eb49ba5cb73cce2a7fbf66c5517ad16a69405036ba5"' }>
                                         <li class="link">
                                             <a href="injectables/UserService.html" data-type="entity-link" data-context="sub-entity" data-context-id="modules" >UserService</a>
                                         </li>
@@ -344,13 +379,16 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 <a href="classes/DatabaseMysqlRepositoryAbstract.html" data-type="entity-link" >DatabaseMysqlRepositoryAbstract</a>
                             </li>
                             <li class="link">
+                                <a href="classes/LoggerEntity.html" data-type="entity-link" >LoggerEntity</a>
+                            </li>
+                            <li class="link">
+                                <a href="classes/PermissionEntity.html" data-type="entity-link" >PermissionEntity</a>
+                            </li>
+                            <li class="link">
                                 <a href="classes/RoleEntity.html" data-type="entity-link" >RoleEntity</a>
                             </li>
                             <li class="link">
-                                <a href="classes/SettingModule.html" data-type="entity-link" >SettingModule</a>
-                            </li>
-                            <li class="link">
-                                <a href="classes/SettingService.html" data-type="entity-link" >SettingService</a>
+                                <a href="classes/SettingEntity.html" data-type="entity-link" >SettingEntity</a>
                             </li>
                             <li class="link">
                                 <a href="classes/UserCreateDto.html" data-type="entity-link" >UserCreateDto</a>
@@ -421,6 +459,9 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 </li>
                                 <li class="link">
                                     <a href="injectables/HelperStringService.html" data-type="entity-link" >HelperStringService</a>
+                                </li>
+                                <li class="link">
+                                    <a href="injectables/SettingService.html" data-type="entity-link" >SettingService</a>
                                 </li>
                                 <li class="link">
                                     <a href="injectables/UserRepository.html" data-type="entity-link" >UserRepository</a>
@@ -496,7 +537,13 @@ customElements.define('compodoc-menu', class extends HTMLElement {
                                 <a href="interfaces/IPaginationOptions.html" data-type="entity-link" >IPaginationOptions</a>
                             </li>
                             <li class="link">
+                                <a href="interfaces/IRoleEntity.html" data-type="entity-link" >IRoleEntity</a>
+                            </li>
+                            <li class="link">
                                 <a href="interfaces/ISettingService.html" data-type="entity-link" >ISettingService</a>
+                            </li>
+                            <li class="link">
+                                <a href="interfaces/IUserEntity.html" data-type="entity-link" >IUserEntity</a>
                             </li>
                             <li class="link">
                                 <a href="interfaces/IUserService.html" data-type="entity-link" >IUserService</a>

@@ -18,13 +18,13 @@
 <title>cluster_HealthModule_providers</title>
 <polygon fill="none" stroke="black" points="126,-40.8 126,-92.8 342,-92.8 342,-40.8 126,-40.8"/>
 </g>
-<g id="clust3" class="cluster">
-<title>cluster_HealthModule_imports</title>
-<polygon fill="none" stroke="black" points="16,-40.8 16,-92.8 118,-92.8 118,-40.8 16,-40.8"/>
-</g>
 <g id="clust4" class="cluster">
 <title>cluster_HealthModule_exports</title>
 <polygon fill="none" stroke="black" points="84,-170.8 84,-222.8 248,-222.8 248,-170.8 84,-170.8"/>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_HealthModule_imports</title>
+<polygon fill="none" stroke="black" points="16,-40.8 16,-92.8 118,-92.8 118,-40.8 16,-40.8"/>
 </g>
 <!-- AwsModule -->
 <g id="node1" class="node">

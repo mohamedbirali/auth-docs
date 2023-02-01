@@ -29,16 +29,19 @@
                    <compodoc-menu mode="normal"></compodoc-menu>
                </div>
                <!-- START CONTENT -->
-               <div class="content controller">
+               <div class="content injectable">
                    <div class="content-data">
 
 
 
 
 
+
+
+
 <ol class="breadcrumb">
-  <li>Controllers</li>
-  <li >UserPublicController</li>
+  <li>Injectables</li>
+  <li >SettingService</li>
 </ol>
 
 <ul class="nav nav-tabs" role="tablist">
@@ -53,10 +56,8 @@
             <h3>File</h3>
         </p>
         <p class="comment">
-            <code>src/modules/user/controllers/user.public.controller.ts</code>
+            <code>src/common/settings/services/setting.service.ts</code>
         </p>
-
-
 
 
 
@@ -77,11 +78,7 @@
                         <ul class="index-list">
                             <li>
                                     <span class="modifier">Async</span>
-                                <a href="#login" >login</a>
-                            </li>
-                            <li>
-                                    <span class="modifier">Async</span>
-                                <a href="#register" >register</a>
+                                <a href="#getMaxPasswordAttempt" >getMaxPasswordAttempt</a>
                             </li>
                         </ul>
                     </td>
@@ -96,6 +93,50 @@
 </section>
 
             <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(configService: ConfigService)</code>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>configService</td>
+                                                  
+                                                        <td>
+                                                                    <code>ConfigService</code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+            <section>
     
     <h3 id="methods">
         Methods
@@ -104,28 +145,21 @@
         <tbody>
             <tr>
                 <td class="col-md-4">
-                    <a name="login"></a>
+                    <a name="getMaxPasswordAttempt"></a>
                     <span class="name">
                         <span class="modifier">Async</span>
-                        <span ><b>login</b></span>
-                        <a href="#login"><span class="icon ion-ios-link"></span></a>
+                        <span ><b>getMaxPasswordAttempt</b></span>
+                        <a href="#getMaxPasswordAttempt"><span class="icon ion-ios-link"></span></a>
                     </span>
                 </td>
             </tr>
             <tr>
                 <td class="col-md-4">
                     <span class="modifier-icon icon ion-ios-reset"></span>
-                    <code>login(userLoginDto: <a href="../classes/UserLoginDto.html" target="_self">UserLoginDto</a>)</code>
+                    <code>getMaxPasswordAttempt()</code>
                 </td>
             </tr>
 
-            <tr>
-                <td class="col-md-4">
-                    <b>Decorators : </b>
-                    <br />
-                    <code>@Post(&#x27;login&#x27;)<br /></code>
-                </td>
-            </tr>
 
 
 
@@ -133,124 +167,20 @@
                 <td class="col-md-4">
 
                     <div class="io-description">
-                        <b>Parameters :</b>
-                        
-                        <table class="params">
-                            <thead>
-                                <tr>
-                                    <td>Name</td>
-                                    <td>Type</td>
-                                    <td>Optional</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>userLoginDto</td>
-                                    <td>
-                                                <code><a href="../classes/UserLoginDto.html" target="_self" >UserLoginDto</a></code>
-                                    </td>
+                        <b>Returns : </b>    <code>Promise&lt;number&gt;</code>
 
-                                    <td>
-                                        No
-                                    </td>
-
-
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div>
-                    </div>
-                    <div class="io-description">
-                        <b>Returns : </b>    <code>Promise&lt;any&gt;</code>
-
-                    </div>
-                    <div class="io-description">
-                        
                     </div>
                 </td>
             </tr>
         </tbody>
     </table>
-    <table class="table table-sm table-bordered">
-        <tbody>
-            <tr>
-                <td class="col-md-4">
-                    <a name="register"></a>
-                    <span class="name">
-                        <span class="modifier">Async</span>
-                        <span ><b>register</b></span>
-                        <a href="#register"><span class="icon ion-ios-link"></span></a>
-                    </span>
-                </td>
-            </tr>
-            <tr>
-                <td class="col-md-4">
-                    <span class="modifier-icon icon ion-ios-reset"></span>
-                    <code>register(userRegisterDto: <a href="../classes/UserRegisterDto.html" target="_self">UserRegisterDto</a>)</code>
-                </td>
-            </tr>
+</section>
 
-            <tr>
-                <td class="col-md-4">
-                    <b>Decorators : </b>
-                    <br />
-                    <code>@Post(&#x27;register&#x27;)<br /></code>
-                </td>
-            </tr>
+    </div>
 
-
-
-            <tr>
-                <td class="col-md-4">
-
-                    <div class="io-description">
-                        <b>Parameters :</b>
-                        
-                        <table class="params">
-                            <thead>
-                                <tr>
-                                    <td>Name</td>
-                                    <td>Type</td>
-                                    <td>Optional</td>
-                                </tr>
-                            </thead>
-                            <tbody>
-                                <tr>
-                                    <td>userRegisterDto</td>
-                                    <td>
-                                                <code><a href="../classes/UserRegisterDto.html" target="_self" >UserRegisterDto</a></code>
-                                    </td>
-
-                                    <td>
-                                        No
-                                    </td>
-
-
-                                </tr>
-                            </tbody>
-                        </table>
-                    </div>
-                    <div>
-                    </div>
-                    <div class="io-description">
-                        <b>Returns : </b>        <code><a href="../classes/UserEntity.html" target="_self" >Promise&lt;UserEntity&gt;</a></code>
-
-                    </div>
-                    <div class="io-description">
-                        
-                    </div>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</section>    </div>
 
 
 </div>
-
-
-
 
 
 
@@ -289,8 +219,8 @@
 
        <script>
             var COMPODOC_CURRENT_PAGE_DEPTH = 1;
-            var COMPODOC_CURRENT_PAGE_CONTEXT = 'controller';
-            var COMPODOC_CURRENT_PAGE_URL = 'UserPublicController.html';
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'injectable';
+            var COMPODOC_CURRENT_PAGE_URL = 'SettingService.html';
             var MAX_SEARCH_RESULTS = 15;
        </script>
 
